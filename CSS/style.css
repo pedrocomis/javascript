@@ -1,16 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color:#fffbfb ;
-     height: 400px;
-     width: 50%;
-     display: block;
      
 }
 #formulario{
-    background-color: #a09b9b;
+    background-color: #000000;
     padding: 70px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(75, 74, 74);
     margin: 700px; 
     width: 450px;
     margin-top: 100px;
@@ -19,12 +16,12 @@ body {
 }
 h1{
     text-align: center;
-    color: #1a1919;
+    color: #ffeeee;
 }
 label{
     display: block ;
     margin-top: 10px;
-    color: #1a1919;
+    color: #ffffff;
 }
 input{
     width: 90%;
@@ -32,6 +29,12 @@ input{
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+p{
+    text-align:left;
+    color: #ffeeee;
+
+
 }
 button{
     padding: 20px;
