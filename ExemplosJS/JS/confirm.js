@@ -11,3 +11,6 @@ function excluir(){
 function abrir(){
     return window.confirm('Você tem certeza que deseja sair dessa página e abrir uma nova página?')
 }
+function carrinho(){
+    return window.confirm('Voocê tem certeza que deseja adicionar este item ao carrinho?')
+}
