@@ -8,3 +8,6 @@ function navConfirm(){
 function excluir(){
     return window.confirm('Você tem certeza que deseja excluir este item?')
 }
+function abrir(){
+    return window.confirm('Você tem certeza que deseja sair dessa página e abrir uma nova página?')
+}
