@@ -3,16 +3,7 @@ body {
     background-color:#ffffff ;
      
 }
-#pagina{
-    background-color: #000000;
-    padding: 70px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgb(75, 74, 74);
-    margin: 700px; 
-    width: 450px;
-    margin-top: 100px;
-    display:grid;
-}
+
 #formulario{
     background-color: #000000;
     padding: 70px;
@@ -48,15 +39,5 @@ p{
 }
 img{
     width: 10%;
-    
-}
-button{
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: green;
-    color: white;
     
 }
