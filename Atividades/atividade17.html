@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade17</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    
+    <h1>Atividade17</h1>
+    <input type="text" name="" id="nome" placeholder="Digite o seu nome:">
+    <input type="number" name="" id="idade" placeholder="Digite a sua idade:">
+    <button onclick="enviar()">Enviar</button>
+    <p id="dados"></p>
+    
+    <script>
+        const sistema = "Sistema "
+        function enviar(){
+            let nome = document.getElementById("nome").value;
+            let idade = document.getElementById("idade").value;
+            document.getElementById("dados").innerHTML = "bem-vindo " + nome + " ao " + sistema + ",você tem " + idade + "anos , está correto?";
+
+        }
+    </script>
+    
+</body>
+</html>
