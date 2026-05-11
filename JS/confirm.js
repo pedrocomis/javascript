@@ -11,3 +11,6 @@ function excluir(){
 function abrir(){
     return window.confirm('Você tem certeza que deseja sair dessa página e abrir uma nova página?')
 }
+function enviar(){
+    return window.confirm('Você tem certeza que deseja enviar este formulário?')
+}
