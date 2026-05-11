@@ -34,7 +34,12 @@ p{
     border: none;
 
 }
-
+imagem{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
 #envia
 :hover{
     background-color: green;
