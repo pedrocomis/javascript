@@ -1,74 +1,115 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color:#f0f1f1bb ;
-}
-h1{
-    text-align: center;
-    color: #242121;
-}
-label{
-    display: block ;
-    margin-top: 10px;
-    color: #000000;
-}
-input{
-    width: 90%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-p{
-    text-align:left;
-    color: #000000;
-    padding: 8px;
-
-
-}
-#enviar{
-    width: 90%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    border: none;
-
-}
-imagem{
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-}
-#envia
-:hover{
-    background-color: green;
-    color: white;
-    border: none;
-    
-}
-.main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2537be 0%, #4854db 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
 }
-.mb-3{
-    margin-bottom: 1rem;
-}
-.d- grid gap-2{
-    display: grid;
-    gap: .5rem;
-}
-.tit-1{
+h1 {
     text-align: center;
-    color: #ffffff;
+    color: #090948;
+    font-size: 2.5rem;
+    margin: 15px 0;
+    font-weight: 700;
 }
-.form-login{
-    width: 700px;/*Largura do formulário*/
-    margin: auto; /* Centraliza o formulário horizontalmente */
-    padding: 40px; /* Espaçamento interno do formulário */
-    background-color: #ffffff; /* Cor de fundo do formulário */ 
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 20px 10px 10px rgb(75, 74,74); /* Sombra para dar destaque */
+
+h3 {
+    text-align: center;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0b1336;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+p {
+    text-align: left;
+    color: #666;
+    padding: 8px 0;
+    margin: 10px 0;
+}
+img {
+    display: block;
+    margin: 0 auto 30px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 1.05rem !important;
+    transition: all 0.3s ease !important;
+    margin-top: 15px !important;
+    box-shadow: 0 4px 15px rgba(19, 46, 164, 0.4) !important;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(16, 38, 136, 0.6) !important;
+}
+.tit-1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+.d-grid {
+    display: grid;
+    gap: 0.5rem;
+}
+.form-login {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
